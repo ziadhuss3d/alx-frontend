@@ -1,0 +1,15 @@
+/* Create a new custom property for section header alignment */
+:root {
+    --section-header-align: center; /* Set alignment to center */
+}
+
+/* Targeting the section-header class to apply the alignment */
+.section-header {
+    text-align: var(--section-header-align); /* Set horizontal alignment */
+}
+
+/* Existing declaration for section-tagline */
+.section-tagline {
+    /* Your existing styles here */
+}
+

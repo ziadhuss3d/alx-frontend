@@ -1,0 +1,15 @@
+/* Create custom properties */
+:root {
+    --section-title-margin: 0; /* Set margin to 0 */
+    --section-title-color: var(--color-black); /* Set color to color-black */
+}
+
+/* Targeting the section-title class */
+.section-title {
+    font-family: var(--font-family-title); /* Set font family */
+    font-size: var(--font-size-xx-large); /* Set font size */
+    font-weight: var(--font-weight-bold); /* Set font weight */
+    margin: var(--section-title-margin); /* Use section-title-margin for margin */
+    color: var(--section-title-color); /* Use section-title-color for text color */
+}
+

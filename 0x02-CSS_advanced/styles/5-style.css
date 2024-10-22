@@ -1,0 +1,19 @@
+/* Targeting the root selector to create custom properties for font sizes */
+:root {
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+}
+
+/* Set all fonts in the html element to 62.5% of their normal size */
+html {
+    font-size: 62.5%; /* This means 1rem = 10px if the default is 16px */
+}
+
+/* Any fonts in the body should have their sizes set to font-size-medium */
+body {
+    font-size: var(--font-size-medium);
+}
+

@@ -1,0 +1,5 @@
+/* Style the anchor elements to remove text decoration */
+a {
+    text-decoration: none; /* Remove underline and other decorations */
+}
+

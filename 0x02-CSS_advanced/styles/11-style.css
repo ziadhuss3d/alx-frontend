@@ -1,0 +1,12 @@
+/* Create a custom property for text transformation */
+:root {
+    --section-tagline-transform: uppercase; /* Set transformation to uppercase */
+}
+
+/* Targeting the section-tagline class */
+.section-tagline {
+    font-family: var(--font-family-title); /* Set font family */
+    text-transform: var(--section-tagline-transform); /* Apply text transformation */
+    font-weight: var(--font-weight-bold); /* Set font weight */
+}
+

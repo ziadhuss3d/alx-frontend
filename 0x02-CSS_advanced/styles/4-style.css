@@ -1,0 +1,21 @@
+/* Targeting the root element to create custom font-family properties */
+:root {
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Set body‘s font-family to font-family-base */
+body {
+    font-family: var(--font-family-base);
+}
+
+/* Target all 6 levels of section headings and set their font-family to font-family-title */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
+
+/* Reset color for all anchor elements */
+a {
+    color: var(--text-color); /* Assuming --text-color is defined in your earlier styles */
+}
+

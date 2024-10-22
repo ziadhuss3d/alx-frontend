@@ -1,0 +1,20 @@
+/* Target anchor elements containing hyperlinks */
+a[href] {
+    text-decoration: none; /* Ensure no decoration for normal state */
+}
+
+/* Target the visited state for the link */
+a[href]:visited {
+    font-style: italic; /* Italicize the text for visited links */
+}
+
+/* Target the hover state for the link */
+a[href]:hover {
+    text-decoration: underline; /* Underline the links on hover */
+}
+
+/* Target the active state for the link */
+a[href]:active {
+    background-color: var(--color-light-grey); /* Set background color for active state */
+}
+
