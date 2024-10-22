@@ -1,20 +1,20 @@
 body {
-    color: #161616; /* Set body foreground color */
+    color: #161616;
 }
 
 a {
-    color: #e073953; /* Set anchor foreground color */
+    color: #e073953;
 }
 
 .card-category {
-    color: #e073953; /* Set foreground color for card-category */
+    color: #e073953;
 }
 
 .visually-hidden {
-    display: none; /* Hide visually-hidden elements */
+    display: none;
 }
 
 .section-tagline {
-    color: #073953; /* Set foreground color for section-tagline */
+    color: #073953;
 }
 
