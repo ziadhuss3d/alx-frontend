@@ -1,20 +1,24 @@
+/* Set the foreground color for the body */
 body {
-    color: #161616; /* Set body foreground color */
+    color: #161616;
 }
 
+/* Set the foreground color for all anchor elements */
 a {
-    color: #e073953; /* Set anchor foreground color */
+    color: #161616;
 }
 
-.card-category {
-    color: #e073953; /* Set foreground color for card-category */
-}
-
+/* Hide elements with the class visually-hidden */
 .visually-hidden {
-    display: none; /* Hide visually-hidden elements */
+    display: none;
 }
 
+/* Set the foreground color for elements with the class card-category */
+.card-category {
+    color: #D73953;
+}
+
+/* Set the foreground color for elements with the class section-tagline */
 .section-tagline {
-    color: #073953; /* Set foreground color for section-tagline */
+    color: #D73953;
 }
-
