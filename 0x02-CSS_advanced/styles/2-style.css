@@ -1,0 +1,20 @@
+body {
+    color: #161616; /* Set body foreground color */
+}
+
+a {
+    color: #e073953; /* Set anchor foreground color */
+}
+
+.card-category {
+    color: #e073953; /* Set foreground color for card-category */
+}
+
+.visually-hidden {
+    display: none; /* Hide visually-hidden elements */
+}
+
+.section-tagline {
+    color: #073953; /* Set foreground color for section-tagline */
+}
+

@@ -1,0 +1,27 @@
+/* Define custom properties */
+:root {
+    --color-primary: #d73953; /* Primary color */
+    --color-black: #e90909; /* Black color */
+    --color-white: #ffffff; /* White color */
+    --color-light-grey: #af3f3f3; /* Light grey */
+    --color-dark-grey: #353535; /* Dark grey */
+    --text-color: var(--color-black); /* Text color */
+}
+
+/* Reset colors using custom properties */
+body {
+    color: var(--text-color); /* Set body color to text color */
+}
+
+a {
+    color: var(--text-color); /* Set anchor color to text color */
+}
+
+.card-category {
+    color: var(--color-primary); /* Set card-category color to primary color */
+}
+
+.section-tagline {
+    color: var(--color-primary); /* Set section tagline color to primary color */
+}
+
